@@ -1,0 +1,16 @@
+body,ul,li,form,div,dl,dt,dd,ol,h1,h2,h3,h4,h5,h6,pre,fieldset,input,textarea,select,p,blockquote,th,acronym{padding:0;margin:0; font-family:Arial, Helvetica, sans-serif;color:#444;}
+body,li,div,dl,dt,dd,pre,input,textarea,select,p,td{font-size:12px;}
+button{padding:0; margin:0; background:transparent; border:0;}
+em{font-style:normal}
+a{color:#0045d0; text-decoration:none;}
+caption,th{text-align:left;}
+ul{list-style:none;}
+fieldset,img{border:0;}
+textarea{resize:none}
+
+@media print {
+   	.noprint { display: none !important; }
+	.noP .f14{font-size:14pt}
+	.noP .f13{font-size:13pt}
+	.noP .f11{font-size:11pt}
+}

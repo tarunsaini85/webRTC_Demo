@@ -1,0 +1,47 @@
+.wrapper{width:982px; margin:auto; padding:0 4px}
+
+/*Header*/
+.topbar{background:#efefef;height:20px; border-bottom:1px solid #e1e1e1; line-height:20px}
+.logOut{font-weight:bold; background:url(../i/icons_3.png) no-repeat right -24px; border:1px solid #efefef; color:#000; text-decoration:none; padding:1px 12px 1px 5px}
+.logOut:hover{background-color:#FFE3A8; border:1px solid #f19932; text-decoration:none}
+.cvID{width:70px; border:1px solid #bfbfbf; color:#333; font-size:11px; padding:3px 5px}
+
+.logo{margin:6px 0} #header1{height:70px}
+.recHelp{color:#F19932;font-size:22px; background:url(../i/icons_3.png) no-repeat left 5px; padding-left:23px; margin-top:12px; font-weight:bold}
+.recHNo{font-size:14px; color:#666; font-weight:bold}
+
+/*Navigation*/
+#mainNav, #mainNav .wrapper{height:30px; background:#217DE8 url(../i/bgYn_1.png) repeat-x 0 0}
+#mainNav ul{list-style:none}
+#mainNav ul li{float:left; height:24px; line-height:24px}
+#mainNav ul li a{color:#fff; font-weight:bold; text-decoration:none; padding:0 8px 0 7px; border-left:1px solid #dbdbdb; line-height:30px; height:30px; display:block; float:left}
+#mainNav ul li a:hover{padding-right:7px}
+#mainNav ul li a.dropD, #mainNav ul li a.dropD1{background:url(../i/navImg.png) no-repeat right -32px; cursor:pointer}
+#mainNav ul li.sel a{color:#000;background:#f8f8f8; margin-top:1px; height:29px; line-height:29px}
+#mainNav ul li.sel a.dropD, #mainNav ul li a.dropD1{cursor:pointer; height:29px; line-height:29px}
+#mainNav ul li a:hover, rc_new ul li a:hover.dropD, #mainNav ul li a.selul, #mainNav ul li a:hover.selul, #mainNav ul li a:hover.dropD1{background:#fff; color:#000; text-decoration:none; border:1px solid #2c8fd4; height:28px; line-height:28px; margin-top:0px; padding:0 7px}
+#mainNav ul li a:hover.dropD, #mainNav ul li a.selul, #mainNav ul li a:hover.selul, #mainNav ul li a:hover.dropD1{background:#fff;cursor:pointer; border-width:1px 1px 0; height:28px; line-height:28px; text-decoration:none}
+#mainNav ul li a.selul, #mainNav ul li a:hover.selul{z-index:101; position:relative}
+#mainNav ul li a:hover.dropD1{background:#f8f8f8}
+#subNav, #subNav .wrapper{background:#f8f8f8; clear:both; }
+.plr7{padding-left:7px; padding-right:7px}
+#subNav a{color:#0045D0}
+.bdrSubNav{/*width: 960px;*/ border: 1px solid #e4e4e4; border-top: 0px; padding:8px 0}
+#subNav a, #subNav strong{ color: #474747; padding: 0px 5px; text-decoration:none}
+#subNav strong{ color: #000}
+#subNav a:hover{text-decoration:underline}
+.rc_Box, .subDD, .selectDD, .logoutDD, .pjDD{background:#fff; color:#000; border:1px solid #2c8fd4; border-width:1px; position:absolute; display:none; z-index:100}
+.logoutDD .pjDD{border-color:#ccc}
+.iframeBox{border:0; z-index:48; position:absolute; display:none}
+.rc_Box, .rc_Box ul li{font:normal 11px Arial, Helvetica, sans-serif}
+.rc_Box ul{list-style:none; width:140px}
+.rc_Box ul li{border:1px dotted #d6d6d6; color:#454545; border-width:0 0 1px 0; line-height:22px}
+.rc_Box ul li a{display:block; text-decoration:none; color:#00f; width:auto;!width:auto;_width:100%;padding:0 5% 0 4.8%;font:normal 12px/22px Arial, Helvetica, sans-serif}
+.rc_Box ul li strong{padding-left:-5px}
+.rc_Box ul li div a{line-height:22px; padding:0 0 0 10px}
+.rc_Box ul li a:hover{text-decoration:none; background:#f3f3f3}
+.rc_Box ul li.bdrrcone, .rc_Box ul li div a.bdrrcone1{border:none}
+.rc_Box ul.rc_BoxW180{width:150px}
+.lfNavCurv, .rtNavCurv{background:url(../i/navCurves.png) no-repeat 0 0; width:8px}
+.rtNavCurv{background-position:-4px 0px}
+#mainNav .wrapper, #subNav .wrapper{padding:0} 
